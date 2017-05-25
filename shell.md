@@ -32,3 +32,8 @@ bash 有自动补全工具bash-completion
     chsh
 ##### 插件oh-my-zsh
 https://github.com/robbyrussell/oh-my-zsh
+
+#### elvish --国人开发的shell
+elvish是由清华大学的肖琪开发的
+go语言开发的
+国产的
