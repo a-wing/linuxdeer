@@ -50,3 +50,11 @@ webqq
 #### wechat_web_devtools
 微信开发者工具（wechat_web_devtools）Linux版，微信小程序Linux版，支持最新微信小程序开发和微信网页开发
 https://github.com/yuan1994/wechat_web_devtools
+
+
+## 终端
+#### deepin-terminal
+深度的终端
+
+#### guake
+基于gnome 的雷神终端
