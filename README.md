@@ -8,6 +8,9 @@ Linux  Desktop Environment User Linux桌面使用者zh_CN.utf-8
 
 [https://github.com/a-wing/linuxdeer](https://github.com/a-wing/linuxdeer)
 
+演示地址
+https://a-wing.github.io/linuxdeer/
+
 ---
 
 #### [Linux镜像与软件源](/mirrors.md)
