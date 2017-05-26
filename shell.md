@@ -30,6 +30,7 @@ bash 有自动补全工具bash-completion
 
     apt-get install zsh
     chsh
+
 ##### 插件oh-my-zsh
 https://github.com/robbyrussell/oh-my-zsh
 
