@@ -14,4 +14,4 @@ Linux  Desktop Environment User Linux桌面使用者zh_CN.utf-8
 #### [Linux软件安装](/install_software.md)
 #### [Linux常用软件](/software.md)
 #### [Linux shell](/shell.md)
-#### [Firefox 插件](/firefox_plugins)
+#### [Firefox 插件](/firefox_plugins.md)
