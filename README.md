@@ -18,3 +18,4 @@ https://a-wing.github.io/linuxdeer/
 #### [Linux常用软件](/software.md)
 #### [Linux shell](/shell.md)
 #### [Firefox 插件](/firefox_plugins.md)
+#### [oh-my-zsh](/oh-my-zsh.md)
