@@ -1,3 +1,11 @@
+--
+layout: post
+title: Blogging Like a Hacker
+published: true
+--
+
+
+
 Firefox 插件
 ==========
 不能用插件的浏览器不是一个好浏览器 --yongxin Shi

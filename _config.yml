@@ -1,0 +1,29 @@
+---
+title: LinuxDeer
+email: shiyongxin@aliyun.com
+author: a-wing
+author_github: a-wing
+description: |
+  Linux  Desktop Environment User Linux桌面使用者zh_CN.utf-8
+  本教程致力与打造最能装B的Linux桌面使用指南，教你如何科学合理的装b
+baseurl: "/"
+url: http://a-wing.github.io/linuxdeer/
+paginate: 12
+github:
+  user: a-wing
+  repository: linuxdeer
+  url: http://a-wing.github.io/linuxdeer/
+  status: true
+home_bgfile: bg.jpg
+sass:
+  sass_dir: assets/css
+  style: compressed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+gems:
+- jekyll-paginate
+exclude:
+- vendor

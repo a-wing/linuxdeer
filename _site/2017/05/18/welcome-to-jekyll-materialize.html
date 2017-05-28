@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!--Import css files-->
+      <link rel="stylesheet" href="/assets/css/styles.css">
+      <link rel="stylesheet" href="/assets/css/materialize.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta http-equiv="Content-Language" content="pt-br">
+    </head>
+  <body>
+
+    
+<nav class="teal accent-4" role="navigation">
+  <div class="container">
+    <div class="nav-wrapper"><a id="logo-container" href="http://a-wing.github.io/linuxdeer/" class="brand-logo">LinuxDeer</a>
+      <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          
+
+          
+            <li>
+              <a class="github-button" href="https://github.com/a-wing/linuxdeer" data-icon="octicon-star" data-style="mega" data-count-href="/a-wing/linuxdeer/stargazers" data-count-api="/repos/a-wing/linuxdeer#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star a-wing/linuxdeer on GitHub">Star</a>
+            </li>
+          
+
+        </ul>
+        <ul class="side-nav" id="mobile-menu">
+          
+
+          
+            <li style="padding-left: 25px;">
+              <a class="github-button" href="https://github.com/a-wing/linuxdeer" data-icon="octicon-star" data-style="mega" data-count-href="/a-wing/linuxdeer/stargazers" data-count-api="/repos/a-wing/linuxdeer#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star a-wing/linuxdeer on GitHub">Star</a>
+            </li>
+          
+        </ul>
+    </div>
+  </div>
+</nav>
+
+        <div class="section">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <br>
+        <section class="v100">
+            <br>
+            <div class="post-header">
+                <h2 class="center-align teal-text post-title" itemprop="name headline">Linux镜像与软件源</h2>
+            </div>
+
+            <div class="container markdown-file">
+                <div class="author">
+                    <p class="right post-meta "><time datetime="2017-05-18T23:12:29+08:00" itemprop="datePublished">May 18, 2017</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Yongxin Shi</span></span></p>
+                </div>
+                <br>
+            </div>
+
+            <div class="divider"></div>
+
+            <br>
+
+            <div class="container">
+                <div class="container markdown-file post-content" itemprop="articleBody">
+                    <div class="post">
+                        <h1 id="linux镜像与软件源">Linux镜像与软件源</h1>
+
+<h3 id="软件源">软件源</h3>
+<p>linux的软件源机制就如同软件商店一样的存在，可以从软件源里安装软件。不同发行版的软件源都是不同的</p>
+
+<h3 id="镜像">镜像</h3>
+<p>大多数发行版的的服务器都在国外，在加上GWF的关系，所以在中国的访问速度感人。国内一些流量比较大的机构就会自己建立镜像站（一般都是学校和互联网巨头），来加速访问。linux发行版镜像站的所属都不同。所以无法自己切换镜像。所以一般都手动切换镜像（换源）</p>
+
+<h3 id="以ubuntu为例">以Ubuntu为例</h3>
+<p>一般情况下，将 /etc/apt/sources.list 文件中 Ubuntu 默认的源地址 http://archive.ubuntu.com/ 替换为 http://mirrors.ustc.edu.cn 即可。</p>
+
+<p>也可以使用如下命令：</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' \
+/etc/apt/sources.list
+</code></pre>
+</div>
+
+<p>当然也可以直接编辑 /etc/apt/sources.list 文件（需要使用 sudo）。以下是 Ubuntu 16.04 参考配置内容：</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>deb https://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+</code></pre>
+</div>
+
+<p>或者</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>cat &gt; /etc/apt/sources.list &lt;&lt; "EOF"
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+EOF
+</code></pre>
+</div>
+
+<h2 id="国内的一些知名开源镜像站">国内的一些知名开源镜像站</h2>
+
+<p>中国科学技术大学
+http://mirrors.ustc.edu.cn/</p>
+
+<p>清华大学 TUNA 协会
+https://mirrors.tuna.tsinghua.edu.cn/</p>
+
+<p>欢迎访问网易开源镜像站
+http://mirrors.163.com/</p>
+
+<p>Alibaba Open Source Mirror Site（阿里云）
+http://mirrors.aliyun.com/</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </article>
+</div>
+
+
+
+      <script type="text/javascript" src="/assets/js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="/assets/js/materialize.min.js"></script>
+      <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function() {
+              $(".button-collapse").sideNav();
+          });
+      </script>
+      <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-78209611-3', 'auto');
+          ga('send', 'pageview');
+      </script>
+  </body>
+
+</html>
