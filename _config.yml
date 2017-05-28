@@ -8,12 +8,12 @@ description: |
   本教程致力与打造最能装B的Linux桌面使用指南，教你如何科学合理的装b
 baseurl: "/"
 root : /linuxdeer
-url: http://a-wing.github.io/linuxdeer/
+url: http://a-wing.github.io/linuxdeer
 paginate: 12
 github:
   user: a-wing
   repository: linuxdeer
-  url: http://a-wing.github.io/linuxdeer/
+  url: http://a-wing.github.io/linuxdeer
   status: true
 home_bgfile: bg.jpg
 sass:
