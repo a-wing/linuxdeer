@@ -15,6 +15,10 @@ draft: false
 Linux常用软件
 ==========
 
+### 先介绍一个神奇的地址
+
+http://www.linuxrsp.ru/win-lin-soft/table-chn.html
+
 ### 视频
 #### mplayer
 mplayer绝对是Linux下视频播放的王者
@@ -61,7 +65,7 @@ webqq
 ## 杂项
 
 ### amule
-linux 下的电螺
+linux 下的电骡
 
 ### web开发
 #### wechat_web_devtools
