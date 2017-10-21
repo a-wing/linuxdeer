@@ -18,6 +18,17 @@ Firefox 插件
 
 firefox的一大特点就是能用插件。并且插件非常丰富
 
+### 修改firefox配置
+
+
+        "about:"
+        "about:config"
+        //修改firefox配置
+        
+        "about:plugins"
+        //查看firefox插件
+
+
 
 #### Greasemonkey --神器
 简称GM，中文俗称为“油猴子”，是Mozilla Firefox的一个附加组件。
