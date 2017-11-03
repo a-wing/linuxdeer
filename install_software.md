@@ -21,6 +21,15 @@ Linux 安装软件一般有几种方式从软件源安装（软件商店），�
 #### Ubuntu && debian
 
     sudo apt update
+    
+>关于apt-get aptitude
+>deb 系的apt-get aptitude
+>这两个工具使用，网上好多文章也没说清楚区别
+>debian官方给出的解释是日常应用用aptitude
+>毕竟aptitude更好用
+>滚动升级时用apt-get
+
+https://www.debian.org/doc/manuals/debian-reference/ch02.zh-cn.html#_literal_apt_get_literal_literal_apt_cache_literal_vs_literal_aptitude_literal
 
 #### archlinux
 
