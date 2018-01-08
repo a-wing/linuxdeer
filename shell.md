@@ -50,3 +50,12 @@ https://github.com/robbyrussell/oh-my-zsh
 elvish是由清华大学的肖琪开发的
 go语言开发的
 国产的
+
+
+
+### 一个实用技巧类似于mac os X open命令
+Linux 本有类似命令 xdg-open 这个命令这么长简反人类。可使用以下命令
+
+其实open命令很实用尤其是终端下
+
+    sudo ln -s /usr/bin/xdg-open /usr/bin/open
