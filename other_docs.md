@@ -10,3 +10,6 @@ https://linux.cn/lfs/LFS-BOOK-7.7-systemd/index.html
 
 #### 在线翻译中的
 https://github.com/LCTT/LFS-BOOK
+
+#### 和linux兼容好的笔记本
+https://wiki.archlinux.org/index.php/Laptop
