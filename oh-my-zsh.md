@@ -26,7 +26,7 @@ oh-my-zsh默认只启用git插件
 ## 插件
 ### 启用插件
 
-编辑这个子段，把启用的插件都添加进去，默认只启用git，下面是我启用的插件
+编辑这个字段，把启用的插件都添加进去，默认只启用git，下面是我启用的插件
 
     plugins=(git archlinux colored-man-pages composer bower pip gem bundler ruby rake rails)
 

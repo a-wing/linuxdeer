@@ -1,3 +1,5 @@
+### 鸟哥的Linux 经典的学习教程
+http://linux.vbird.org
 
 ### Debian 参考手册
 https://www.debian.org/doc/manuals/debian-reference/
