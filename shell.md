@@ -27,16 +27,22 @@ Shell是系统的用户界面，提供了用户与内核进行交互操作的一
 * elvish
 
 
-#### bash --默认的shell
+### bash --默认的shell
 bash 是一个为GNU计划编写的Unix shell。它的名字是一系列缩写：Bourne-Again SHell — 这是关于Bourne shell（sh）的一个双关语（Bourne again / born again）。Bourne shell是一个早期的重要shell，由史蒂夫·伯恩在1978年前后编写，并同Version 7 Unix一起发布。bash则在1987年由布莱恩·福克斯创造。在1990年，Chet Ramey成为了主要的维护者。
 bash是大多数Linux系统以及Mac OS X默认的shell。
 
+> 改变用户默认shell在 `/etc/passwd`
+
 bash 有自动补全工具bash-completion
+```sh
+apt-get install bash-completion
+```
 
-    apt-get install bash-completion
+关于bsah的环境变量请参照这篇文章
 
+[bash启动时加载配置文件过程](http://www.cnblogs.com/f-ck-need-u/p/7417651.html)
 
-#### zsh --最终的shell
+### zsh --最终的shell
 默认的一般都是bash。一般要先安装zsh
 设置默认shell
 
@@ -45,6 +51,17 @@ bash 有自动补全工具bash-completion
 
 ##### 插件oh-my-zsh
 https://github.com/robbyrussell/oh-my-zsh
+
+可参照这篇
+
+[oh-my-zsh](oh-my-zsh.md)
+
+### Fish
+> 听说很强大。不过我没用过。。
+
+请参考这篇
+
+[Fish shell 入门教程 -- 阮一峰](http://www.ruanyifeng.com/blog/2017/05/fish_shell.html)
 
 #### elvish --国人开发的shell
 elvish是由清华大学的肖琪开发的
