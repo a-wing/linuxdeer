@@ -21,14 +21,34 @@ Linux 安装软件一般有几种方式从软件源安装（软件商店），�
 #### Ubuntu && debian
 
     sudo apt update
-    
->关于apt-get aptitude
->deb 系的apt-get aptitude
->这两个工具使用，网上好多文章也没说清楚区别
->debian官方给出的解释是日常应用用aptitude
->毕竟aptitude更好用
->滚动升级时用apt-get
 
+#### 关于apt-get aptitude
+> deb 系的apt-get, aptitude, apt
+>
+> apt 是apt-get 封装
+>
+> 这两个工具使用，网上好多文章也没说清楚区别
+>
+> debian官方给出的解释是日常应用用aptitude
+>
+> aptitude 在日常使用会更有优势，他的包关系数据记录更优秀，不过这种优势只在一直用aptitude 才有
+>
+> 滚动升级时用apt-get，aptitude比较激进，不过对于桌面来说无所谓
+
+#### apt-get 常用卸载参数
+```sh
+
+# 卸载软件包
+apt remove 软件名
+
+# 卸载软件包 和 只和这个软件包有依赖关系的包
+apt autoremove 软件名
+
+# 卸载软件包 和 只和这个软件包有依赖关系的包 和 配置文件
+apt autoremove --purge 软件名
+```
+
+##### 参考文档
 https://www.debian.org/doc/manuals/debian-reference/ch02.zh-cn.html#_literal_apt_get_literal_literal_apt_cache_literal_vs_literal_aptitude_literal
 
 #### archlinux
@@ -59,7 +79,7 @@ https://www.debian.org/doc/manuals/debian-reference/ch02.zh-cn.html#_literal_apt
 
 如果有.desktop结尾的文件可以
 
-    cp /opt/你的软件报名/启动程序名.desktop /usr/share/applications/
+    cp /opt/你的软件包名/启动程序名.desktop /usr/share/applications/
 
 ## 源码包
 一般都是有makefile文件的都是源码包

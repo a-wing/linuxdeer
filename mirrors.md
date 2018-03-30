@@ -44,7 +44,18 @@ linux的软件源机制就如同软件商店一样的存在，可以从软件源
     deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
     EOF
 
+### 关于debian 版本
+debian 默认是稳定版。源里写着的是版本代号。现在 stable = stretch 系统
 
+默认是stable， 作为桌面用户完全可以用unstable
+
+stable 稳定，但包陈旧。适合服务器用
+
+升级顺序：
+
+oldstable → stable → testing → unstable → experimental
+
+请不要使用`experimental`，除非你对dpkg 足够了解
 
 
 ## 国内的一些知名开源镜像站
