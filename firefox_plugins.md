@@ -12,6 +12,9 @@ draft: false
 
 Firefox 插件
 ==========
+
+> 前不久firefox 用Rust 重写了浏览器内核，浏览器变快了好多，但也导致好多扩展不能用了
+
 不能用插件的浏览器不是一个好浏览器 --yongxin Shi
 
 建议把firefox设成默认浏览器，就连IE6都有勇气问你是否要把他设为默认浏览器，firefox才应该是默认浏览器
@@ -19,12 +22,12 @@ Firefox 插件
 firefox的一大特点就是能用插件。并且插件非常丰富
 
 ### 修改firefox配置
-
+再地址栏里输入
 
         "about:"
         "about:config"
         //修改firefox配置
-        
+
         "about:plugins"
         //查看firefox插件
 
@@ -43,8 +46,10 @@ http://mozilla.com.cn/thread-65802-1-1.html
 https://greasyfork.org/zh-CN
 
 
-#### Firebug
-前端开发的神器
+#### ~Firebug~
+~前端开发的神器~
+
+Firefox Quantum 57.版本自带的已经足够好用了
 
 #### Adblock Plus
 强大的广告过滤插件
@@ -56,6 +61,11 @@ https://greasyfork.org/zh-CN
 #### Url to QrCode
 生成二维码，在手机上浏览
 
+
+===
+下面的新版的火狐用不了了
+
+~
 #### AutoProxy
 科学上网需要的代理切换工具
 
@@ -67,3 +77,4 @@ firefox下的批量下载工具
 
 #### User-Agent Switcher
 伪装成手机，伪装成IE
+~
